@@ -23,6 +23,38 @@ function showAddToCartPopup() {
   });
 }
 
+
+document.addEventListener("DOMContentLoaded", function () {
+  const addToCartButtons = document.querySelectorAll(".addToCartBtn");
+  const buyNowButtons = document.querySelectorAll(".buyNowBtn");
+
+  addToCartButtons.forEach(button => {
+    button.addEventListener("click", function (event) {
+      event.preventDefault();
+      Swal.fire({
+        icon: 'success',
+        title: 'Berhasil!',
+        text: 'Produk berhasil ditambahkan ke keranjang.',
+        showConfirmButton: false,
+        timer: 1500
+      });
+    });
+  });
+
+  buyNowButtons.forEach(button => {
+    button.addEventListener("click", function (event) {
+      event.preventDefault();
+      Swal.fire({
+        icon: 'success',
+        title: 'Berhasil!',
+        text: 'Pembelian produk berhasil dilakukan.',
+        showConfirmButton: false,
+        timer: 1500
+      });
+    });
+  });
+});
+
 // Attach event listeners to all buttons with the class 'buyNowBtn'
 document.querySelectorAll('.buyNowBtn').forEach(button => {
   button.addEventListener('click', function(event) {

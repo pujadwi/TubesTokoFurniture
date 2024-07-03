@@ -1,0 +1,90 @@
+.main-color {
+  background-color: rgb(165, 136, 99);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+  background-image: url('img/banner4.jpg');
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+  position: relative;
+}
+
+/* Style.css or within <style> tag in <head> */
+.card {
+  width: 100%; /* Lebar maksimum */
+  border: 8px solid rgb(165, 136, 99); /* Ukuran border */
+  margin-bottom: 20px; /* Jarak antar card */
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(54, 53, 53, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.footer {
+  background-color: rgb(165, 136, 99);
+}
+.navbar-brand strong {
+  color: rgb(204, 194, 180) !important;
+}
+.promoBuyNowBtn {
+  color: white; 
+  background-color: rgb(165, 136, 99); 
+  transition: background-color 0.3s, color 0.3s; /* Transisi untuk efek yang halus */
+}
+
+.promoBuyNowBtn:hover {
+  background-color: white; /* Warna latar belakang saat dihover */
+  color: rgb(165, 136, 99); /* Warna teks saat dihover */
+}
+.addToCartBtn {
+  color: white; 
+  background-color: rgb(165, 136, 99); 
+  transition: background-color 0.3s, color 0.3s; /* Transisi untuk efek yang halus */
+}
+.addToCartBtn:hover {
+  background-color: white; /* Warna latar belakang saat dihover */
+  color: rgb(165, 136, 99); /* Warna teks saat dihover */
+}
+.buyNowBtn {
+  color: white; 
+  background-color: rgb(165, 136, 99); 
+  transition: background-color 0.3s, color 0.3s; /* Transisi untuk efek yang halus */
+}
+.buyNowBtn:hover {
+  background-color: white; /* Warna latar belakang saat dihover */
+  color: rgb(165, 136, 99); /* Warna teks saat dihover */
+}
+.btn-custom {
+  color: white; 
+  background-color: rgb(165, 136, 99); 
+  transition: background-color 0.3s, color 0.3s; /* Transisi untuk efek yang halus */
+}
+.btn-custom:hover {
+  background-color: white; /* Warna latar belakang saat dihover */
+  color: rgb(165, 136, 99); /* Warna teks saat dihover */
+}
+.back-icon {
+  font-size: 50px;
+  color: black;
+  transition: color 0.3s; /* Transisi untuk efek yang halus */
+}
+.back-icon:hover {
+  color: rgb(165, 136, 99); /* Warna ikon saat dihover */
+}
+.btn-search {
+  color: rgb(0, 0, 0); 
+  background-color: rgb(165, 136, 99); 
+  transition: background-color 0.3s, color 0.3s; /* Transisi untuk efek yang halus */
+}
+.btn-search:hover {
+  background-color: white; /* Warna latar belakang saat dihover */
+  color: rgb(165, 136, 99); /* Warna teks saat dihover */
+}
